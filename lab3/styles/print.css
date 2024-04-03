@@ -1,0 +1,27 @@
+/* Скрываем header */
+header {
+    display: none;
+}
+
+.background{
+    display: none;
+}
+p{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+.print_img{
+    height: 300px;
+    width: 400px;
+}
+
+.print_tablitsa{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

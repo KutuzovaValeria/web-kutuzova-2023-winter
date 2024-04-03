@@ -1,0 +1,29 @@
+html{
+    margin: 0px;
+}
+.back{
+background-image: url(background.png);
+background-size: 1580px;
+
+}
+
+a{
+    color: inherit; 
+    text-decoration: none;
+}
+
+.div_1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 300px 350px 250px 350px;
+    
+}
+
+
+p{
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(2, 2, 2);
+    background-color: #cf553fa4;
+    color: rgb(255, 255, 255);
+}

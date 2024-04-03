@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Аутентификация</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="space"></div>
+		<a class="header-link" href="index.html"><div>Главная</div></a>
+		<div class="space"></div>
+    </header>
+    <h1>Аутентификация</h1>
+    <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+        <p><label for="login">Логин:</label></p>
+        <p><input type="text" id="login" name="login" required=""></p>
+        <p><label for="password">Пароль:</label></p>
+        <p> <input type="password" id="password" name="password" required=""></p>
+        <label for="remember">
+            <input type="checkbox" id="remember" name="remember"> Запомнить меня
+        </label>
+        <p><button type="submit">Войти</button></p>
+    </form>
+ 
