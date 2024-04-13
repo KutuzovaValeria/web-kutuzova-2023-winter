@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TourismInMoscow</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles\style.css">
+        <link rel="icon" href="img\logo.png" type="image/png">
+
+        <script src="https://kit.fontawesome.com/7ae22687d7.js"crossorigin="anonymous"></script>
+        <script src="js\script.js" crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color:#fffb85" class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg" style="padding:0px; background-color:#f1ef99">
+                <img src="img\logo.png" width="110px" alt="Логотип" id="logo">
+                <button class="btn btn-primary navbar-toggler custom-btn-color navbar-brand" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    МЕНЮ
+                </button>
+                      <ul class="dropdown-menu custom-btn-color" aria-labelledby="dropdownMenuButton">
+                         <li class="name_of_company navbar-brand">Tourism IN Moscow</li>
+                         <li><a class="dropdown-item" class="lk navbar-text" href="#">Личный кабинет</a></li>
+                      </ul>
+                <div class="collapse navbar-collapse nav-item" id="navbarNav">
+                    <div class="name_of_company navbar-brand">Tourism IN Moscow</div>
+                    <a href="cabinet.html" class="lk navbar-text" >Личный кабинет</a>
+                </div>  
+            </nav>
+        </header>
+    
+        <section>
+            <div class="container-fluid">
+                <p class="alert alert-success size" role="alert" id="alert" style="text-align:center; font-size: 20px;"><b>Пенсионерам скидки! Тематические сувениры для каждого посетителя!</b>
+                    <button onclick="hideAlert()" style="margin-left: 40px; background-color: rgba(185, 84, 84, 0.822);"><img src="img\крест.png" width="20px"></button>
+                </p>
+                </p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img\png_1.png" width="500px" alt="Фон" id="back" style="padding: 0px;">
+                </div>
+                <div class="col-md-6">
+                  <h3 class="txt">Tourism IN Moscow</h3>
+                  <p class="txt"><b>Tourism IN Moscow</b> — это ваш надежный проводник в мире московских приключений! Наша компания специализируется на организации индивидуальных и групповых экскурсий по Москве, предлагая уникальные и памятные маршруты для каждого путешественника. Мы стремимся показать не только знаменитые исторические памятники и культурные достопримечательности, но и скрытые жемчужины города, которые остаются в тени главных туристических маршрутов.</p>
+                  <p class="txt">Наши услуги включают организацию туров на русском и английском языках, бронирование билетов в музеи и на мероприятия, а также помощь в размещении в лучших гостиницах Москвы. Мы гарантируем высокий уровень сервиса и индивидуальный подход к каждому клиенту.</p>
+                  <p class="txt"><b>Tourism IN Moscow</b> — это не просто экскурсии, это путешествие в историю и культуру одного из величайших городов мира, в котором каждый найдет что-то особенное для себя. Позвольте нам сделать вашу поездку незабываемой!</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col fw-bold fs-1 text-center txt">
+                        Мы предоставляем
+                    </div>
+                </div>
+                <div class="row md-3">
+                    <div class="col-md-4" >
+                        <img src="img\возврат.png" height="60" alt="" class="mt-1 user-select-none">
+                        <div class="benefit benefit-cancel ms-2">
+                            <div class="benefit-title fw-bold txt" style="font-size: 20px;">Бесплатная отмена</div>
+                            <div class="benefit-descript text">Бесплатная отмена за 24 часа</div>
+                            <div class="benefit-title fw-bold txt">Преимущества для ВАС</div>
+                            <div class="benefit-descript text"><b>Гибкость</b>: клиенты могут планировать свои поездки, зная, что могут изменить планы без финансовых потерь до последнего дня.</div>
+                            <div class="benefit-descript text"><b>Уверенность</b>: эта опция дает дополнительную уверенность при бронировании, особенно в случаях неопределенности (например, изменения планов из-за погоды или здоровья).</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <img src="img\онлайн оплата.png" height="50" alt="" class="mt-1 user-select-none img">
+                            <div class="benefit benefit-flash ms-2" >
+                            <div class="benefit-title fw-bold txt" style="font-size: 20px;">Оплата онлайн</div>
+                            <div class="benefit-descript text">Мы гарантируем сохранность платежей и персональных данных</div>
+                            <div class="benefit-title fw-bold txt">Преимущества для ВАС</div>
+                            <div class="benefit-descript text"><b>Быстрота транзакций</b>:  оплата онлайн позволяет клиентам завершить покупки быстро и легко, не выходя из дома или офиса. Это экономит время и делает процесс покупки менее трудоемким.</div>
+                            <div class="benefit-descript text"><b>Защита финансовых данных</b>: современные технологии шифрования и безопасности гарантируют, что финансовые данные клиентов защищены от несанкционированного доступа.</div>
+                        </div>
+                    </div> 
+
+                   <div class="col-md-4">
+                        <img src="img\подтверждение.png" height="50" alt="" class="mt-1 user-select-none img">
+                        <div class="benefit benefit-flash ms-2" >
+                            <div class="benefit-title fw-bold txt" style="font-size: 20px;">Быстрое подтверждение</div>
+                            <div class="benefit-descript text">После оплаты вы получите билет на электронную почту или телефон</div>
+                            <div class="benefit-title fw-bold txt">Преимущества для ВАС</div>
+                            <div class="benefit-descript text"><b>Немедленное уведомление</b>: клиенты получают подтверждение бронирования сразу после оплаты, что исключает неопределенность и ожидание подтверждения. Это особенно важно в случаях срочного бронирования или последней минуты.</div>
+                            <div class="benefit-descript text"><b>Цифровое хранение</b>: электронные билеты легко сохранять, управлять и предъявлять при необходимости, используя смартфон или другое устройство. Это устраняет необходимость носить с собой бумажные копии, что уменьшает риск их потери.</div>
+                        </div>
+                    </div> 
+                
+            </div> 
+          </section>
+
+          <div id="walking-routes" class="walking-routes mt-5">
+            <div class="fs-3 fw-bold text">
+                Список маршрутов
+            </div>
+            <div class="page-of-pages">
+            </div>
+            <div class="inputs my-3 d-flex flex-column flex-sm-row">
+                <div class="input-group input-group-find">
+                    <input id="find-route-input" type="text" class="form-control" placeholder="Поиск по названию"
+                        aria-label="" aria-describedby="find-route">
+                    <button class="btn btn-outline-danger" type="button" id="find-route-btn">Найти</button>
+                </div>
+                <div class="input-group ms-5 w-25">
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                        placeholder="Основной объект">
+                    <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"></button>
+                    <ul class="dropdown-menu dropdown-menu-end btn-outline-dange">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="walking-routes-table table table-hover table-bordered text-center">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col">Название</th>
+                            <th scope="col">Описание</th>
+                            <th scope="col">Основные объекты</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="walking-routes-tbody">
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center">
+                <nav aria-label="Page navigation">
+                    <ul id="pagination-walking-routes" class="pagination pagination-walking-routes">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="guides-container" class="guides-container mt-5 d-none">
+            <div class="fs-3 fw-bold">
+                Доступные гиды по маршруту <span id="guides-route-name"
+                    class="guides-route-name text-decoration-underline">Название маршрута</span>
+            </div>
+            <div class="inputs my-3 d-flex flex-column flex-sm-row">
+                <div class="input-group w-25 btn-outline-dange">
+                    <input type="text" class="form-control language-input" aria-label="Text input with dropdown button"
+                        placeholder="Язык экскурсии">
+                    <button class="btn btn-outline-success dropdown-toggle btn-outline-dange" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"></button>
+                    <ul id="language-dropdown-menu" class="dropdown-menu dropdown-menu-end btn-outline-dange">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+
+                <div class="expirience-container ms-0 ms-sm-5 mt-3 mt-sm-0 d-flex align-items-center">
+                    <div class="expirience-text">Опыт работы</div>
+                    <div class="expirience-from-to d-flex">
+                        <input id="guide-exp-from-input" type="text" class="form-control mx-3 exp-input" placeholder="От" aria-label="">
+                        <input id="guide-exp-to-input" type="text" class="form-control exp-input" placeholder="До" aria-label="">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="div-alerts"></div>
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered text-center">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col"></th>
+                            <th scope="col">ФИО</th>
+                            <th scope="col">Языки</th>
+                            <th scope="col">Опыт работы</th>
+                            <th scope="col">Стоимость услуг в час</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="guides-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="application-formalization-modal" tabindex="-1" aria-labelledby="ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg application-formalization-modal">
+            <div class="modal-content app-form-modal">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel">Оформление заявки</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-bio">ФИО гида: </div>
+                    <div class="modal-walking-route-name">Название маршрута: </div>
+                    <div class="modal-time-container py-2 d-flex flex-column flex-sm-row justify-content-between">
+                        <div class="modal-date-container">
+                            <div class="modal-date-title mb-1">Дата экскурсии:</div>
+                            <input type="date" name="date" class="form-control rounded px-2 modal-date-input"
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        </div>
+                        <div class="modal-time-container">
+                            <div class="modal-time-title mb-1">Время начала:</div>
+                            <div class="input-group input-group-sm mb-3">
+                                <input type="time" name="time" class="form-control rounded px-2 modal-time-input"
+                                    aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+                                    min="09:00:00" max="23:00:00">
+                            </div>
+                        </div>
+                        <div class="modal-duration-container">
+                            <div class="modal-duration mb-1">Время экскурсии:</div>
+                            <div class="input-group input-group-sm mb-3">
+                                <input type="text" class="form-control modal-hour-input"
+                                    aria-label="Text input with dropdown button">
+                                <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    id="inputGroup-sizing-sm"></button>
+                                <ul class="dropdown-menu dropdown-menu-end modal-hour-dropdown-menu">
+                                    <li><a class="dropdown-item modal-hour-btn modal-hour-1">1 час</a></li>
+                                    <li><a class="dropdown-item modal-hour-btn modal-hour-2">2 часа</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-people-count-container">
+                        <div class="modal-people-count">Количество человек: </div>
+                        <div class="input-group input-group-sm mb-3 w-25">
+                            <input type="number" class="form-control modal-people-count-input"
+                                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" min="1"
+                                max="20" value="1">
+                        </div>
+                    </div>
+                    <div class="modal-additional-options-container">
+                        <div class="modal-additional-options-title fs-5">Дополнительные опции: </div>
+                        <div class="modal-options-container d-flex flex-column flex-sm-row mt-2 mb-3">
+                            <div class="modal-option me-5">
+                                <div class="form-check">
+                                    <input class="form-check-input modal-fast-checkbox" type="checkbox" value=""
+                                        id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Использовать скидку для пенсионеров
+                                    </label>
+                                </div>
+                                <div class="modal-option-description">Стоимость уменьшается на 25%<span
+                                        class="modal-option-fast-extra"></span></div>
+                            </div>
+                            <div class="modal-option">
+                                <div class="form-check">
+                                    <input class="form-check-input  modal-transfer-checkbox" type="checkbox"
+                                        value="" id="flexCheckDefault">
+
+                                </div>
+                                <div class="modal-option-description">Тематические сувениры для посетителей. Стоимость увеличивается на 500 рублей для
+                                    каждого посетителя<span
+                                        class="modal-option-transfer-extra"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-final-value">Итоговая стоимость: 0₽</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Отменить</button>
+                    <button id="send-modal-for-alert"    type="button" class="btn btn-success modal-btn-send"
+                        data-bs-dismiss="modal">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+<footer>
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-md-4"> 
+                <h3>Контактная информация</h3> 
+                <p>Email: info.tourisminmoscow</p> 
+                <p>Телефон: +7 (999) 474-74-74</p> 
+            </div> 
+            <div class="col-md-4"> 
+                <h3>Социальные сети</h3> 
+                <ul class="socialnet list-unstyled"> 
+                    <li>
+                        <img src="img\vk.png" height="30" alt="" class="mt-1 user-select-none">
+                        <a href="https://vk.com/">VK</a>
+                    </li>
+                    <li>
+                        <img src="img\tg.png" height="30" alt="" class="mt-1 user-select-none">
+                        <a href="https://web.telegram.org/a/">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 d-flex align-items-center px-5">
+                <span class="text-muted">© 2024 TourismInMoscow, created by Kutuzova Valeria</span>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

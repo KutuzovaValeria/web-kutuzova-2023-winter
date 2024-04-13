@@ -1,0 +1,39 @@
+.name_of_company{
+    font-size: 30px;
+    padding:20px;
+}
+
+.lk{
+    font-size: 20px;
+    padding-left:20px;
+    text-decoration: none;
+}
+
+.custom-btn-color{
+    background-color: #2B1C13; 
+    border-color: #E2BA67;
+    color:#FFFAE5;
+}
+
+.size{
+    padding-top:16px;
+    margin-top: 10px;
+    background-color:rgba(185, 84, 84, 0.822);
+    border-color:rgb(88, 12, 12);
+    color: #2B1C13; 
+} 
+.text{
+    color:rgba(185, 84, 84, 0.822);
+}
+
+.txt{
+    color: #2B1C13; 
+}
+
+.img{
+    padding-left:5px;
+}
+
+footer{
+    background-color: #f1ef99 ;
+}
